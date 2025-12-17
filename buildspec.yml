@@ -13,7 +13,6 @@ phases:
       - ng build -c production
       - echo "Build completed"
 artifacts:
-  base-directory: dist/my-angular-project
   files:
     - 'dist/my-angular-project/**/*'
     - appspec.yml
